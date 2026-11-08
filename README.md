@@ -84,7 +84,7 @@ All coding, adjudication and patch drafting were carried out by AI-model coding 
 
 Rights and reuse
 
-The corpus files reproduce texts published by Georgia Tech, Stanford University and the University of Toronto; copyright in those texts remains with their authors and institutions, and they are included for verification of the coding only. The codebook, coded data, scripts, figures and reports are the work of the authors. [Add license, for example CC BY 4.0 for data and documents and MIT for scripts.]
+The corpus files reproduce texts published by Georgia Tech, Stanford University and the University of Toronto; copyright in those texts remains with their authors and institutions, and they are included for verification of the coding only. The codebook, coded data, scripts, figures and reports are the work of the authors. [Licensed as CC BY 4.0 for data and documents and MIT for scripts.]
 
 How to cite
 
