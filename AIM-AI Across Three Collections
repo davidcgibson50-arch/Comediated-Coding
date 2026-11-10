@@ -1,0 +1,484 @@
+AIM-AI Across Three Collections: A First-Glance Synthesis of Instructor AI Examples from Georgia Tech, Stanford, and Toronto (Version 2)
+Oct 5, 2026 · @David Gibson
+Purpose and Scope
+We have screened three institutional collections of instructor-authored AI examples, totalling 147 entries, and all three appear workable as corpora for the Interactional Model of AI-Mediated Learning (AIM-AI). Before we commit to deep reading and classification, several design decisions must still be settled. This synthesis brings our first-glance screens together so that a colleague can see the evidence behind those decisions and weigh in on them.
+The three collections are the Georgia Tech Academic AI Playbook (Joyner & Roy, 2026), Stanford's AIMES Library of Examples (Stanford Center for Teaching and Learning, n.d.), and the University of Toronto's teaching examples, curated by its Centre for Teaching Support & Innovation (Centre for Teaching Support & Innovation [CTSI], n.d.). Each was screened with the same question in mind: does an entry describe a human-AI interaction arrangement that the AIM-AI codebook could classify?
+Version 2 revises the synthesis against Codebook v0.5, which realigns our coding instrument to the 14 September 2026 revision of the AIM-AI manuscript. That revision reduces the framework from seven dimensions to five, adopts the mediation episode as its unit of analysis, recasts the configurations as reference points on a continuum, and adds hidden epistemology and AI literacy as explicit constructs. The screening counts are unchanged, because v0.5 carried every screening decision forward. What changes is how we describe the framework, how each collection maps onto the new unit hierarchy, and which open questions remain. The Addendum lists every change from Version 1.
+Every count reported here is provisional. The Georgia Tech screen rested on the opening of each article's Action section plus targeted full-text checks. The Stanford and Toronto screens rested mainly on listing pages, titles, and curator categories, with close reads of two and four entries respectively. None of the counts should be cited as findings; they are working estimates that show us where the boundary problems lie.
+The AIM-AI Framework and Codebook v0.5
+The revised AIM-AI describes interactional mediation as a continuum along which the distribution of participation, cognitive responsibility, interpretive influence, and task direction shifts between AI and human (AIM-AI manuscript, 2026). Four configurations serve as reference points on that continuum, with deliberately permeable boundaries, and each is characterized across five dimensions (Table 1). The continuum is descriptive, not hierarchical: the value of any configuration depends on the goals and context of the learning activity.
+Table 1
+AIM-AI Reference Configurations Across Five Dimensions
+Dimension
+AI-dominant (AD)
+AI-structured (AS)
+Co-mediated (CM)
+Human-dominant (HD)
+1. Engagement type
+Passive
+Active
+Interactive
+Constructive
+2. Interaction structure and participant roles
+AI directs and generates; human receives and executes
+AI structures and recommends; human selects and applies
+AI and human share structuring; human interprets, negotiates, and refines
+Human directs and evaluates; AI supports and advises
+3. Learning activity
+Acquisition
+Practice
+Inquiry, discussion, collaboration
+Inquiry, production
+4. Interpretive influence
+Limited interpretation within AI-generated framing
+Human interpretation within AI-structured framing
+Reciprocal interpretation and meaning making
+Human-directed interpretation and meaning making
+5. Social positioning of AI
+Authority
+Assistant
+Collaborator
+Advisor
+Note. Descriptors from Table 4 of the AIM-AI manuscript (2026). The ordering AD, AS, CM, HD describes increasing human responsibility for framing, direction, and interpretation; it is not evaluative.
+Three features of the revision matter most for coding instructor narratives. First, interaction structure now absorbs the former human-role and AI-role columns, so who steers and who produces the substance are read together. Second, interpretive influence is specified through five interpretive functions: framing the problem, identifying relevant information, proposing explanations, evaluating alternatives, and determining meaning. Third, the revision grounds hidden epistemology in research on bias in computational tools and language models (Caliskan et al., 2017; Litts et al., 2021), on cognitive imperialism (Ofosu-Asare, 2025), and on epistemic authority in algorithmic learning spaces (Jose et al., 2025). It holds that hidden epistemology remains possible in every configuration; what varies is the learner's opportunity to recognize, evaluate, challenge, or redirect the assumptions AI introduces.
+The Unit of Analysis
+The revision adopts the mediation episode as its primary unit: a coherent sequence of human-AI interactions organized around one learning or task objective. Episodes can shift along the continuum while their objective stays constant, and successive episodes within one learning activity can sit at different points. Codebook v0.5 therefore uses three nested units (rule R1, adopted): the document, as the collection presents it; the learning activity, a distinct human-AI arrangement within the document; and the mediation episode, which is the coding row. Where a narrative describes an arrangement only at the level of design, we code one episode for that activity and memo that episodes were not resolvable.
+The Codebook
+Codebook v0.5 operationalizes 20 intersections (four configurations by five dimensions), each with operational definitions, inclusion indicators, boundary rules, and cue words. Dimensions are coded independently, so a co-mediated structure can sit alongside authority positioning, and that misalignment is recorded rather than corrected. Coherence across dimensions is summarized with an adjacency-weighted index that treats a split between neighbouring configurations as less incoherent than a split between distant ones; the ordering rests on distributed responsibility and student agency, not on engagement depth, and so departs deliberately from ICAP's own hierarchy (Chi & Wylie, 2014).
+The codebook also records cross-cutting extension codes on every episode (Table 2). These capture constructs the revision introduces, and several bear directly on the boundary problems this synthesis identifies.
+Table 2
+Extension Codes in Codebook v0.5
+Code family
+Values
+What it records
+Rule
+Epistemic opportunity (EO)
+Inherited, Recognized, Evaluated, Challenged, Redirected
+The most extensive move participants made toward an AI-introduced assumption, coded independently of configuration
+R16
+Epistemic object (EB)
+Evidence and relevance; explanation and causality; authority and credibility; reasoning norms; perspective and bias
+The kind of assumption at stake
+R16
+Mediational literacy (ML)
+Framing, epistemic, cognitive-work awareness; deliberate decision-making
+Designed or reported awareness of AI as a mediator; knowledge of AI capabilities or prompting alone does not count
+R17
+Trajectory (TR)
+Stable; toward human direction; toward AI direction
+Computed from start and end configurations within an episode
+R6
+Stated purpose and intended configuration
+Five purposes; AD to HD
+What the design was for and what it was meant to encourage, with computed purpose-design and design-enactment alignment
+R3
+Evidence locus
+Design intent, reported enactment, participant voice, outcome data, mixed
+Where the evidence for an episode comes from
+R3
+Sociotechnical frame (ST)
+High-stakes, formative, optional, workplace, instructor preparation
+The institutional frame; never used to infer configuration
+R18
+Dialogue type (DT) and learner variability (LV)
+Instructional, feedback, collaborative, reflective; eight variability sources
+AI's conversational function; differences the author reports
+R19, R20
+Screening Rules Carried Forward
+Four decisions made while building the codebook against the Georgia Tech corpus carry into this synthesis unchanged:
+• Instructor-AI arrangements (R2). Instructor uses of AI, such as course preparation or grading, are coded with the same codebook but analyzed separately from learner episodes.
+• AI removal (R7). Designs whose only move is to remove AI are excluded. Under a mixed-article provision, documents that remove AI in one place but describe AI-mediated activity elsewhere are retained, and only the AI-mediated parts are coded.
+• Non-interactional commentary (R14). Documents in which AI is subject matter, or which describe policy and resource work without any human-AI arrangement, are excluded. We reviewed this rule for v0.5 and kept it: the mediational literacy codes apply only to included documents.
+• Review thresholds (R12). An episode is flagged for review when fewer than three of five dimensions are coded, when adjacency coherence falls below .67, or when the modal configuration is tied. Both thresholds remain provisional until we have coded data.
+The Three Collections at a Glance
+The three collections differ less in size than in genre. Georgia Tech offers reflective narratives, Stanford offers prescriptive artifacts, and Toronto sits between the two. Under Codebook v0.5, the genres also differ in how much episode-level detail they supply. Table 3 sets out the features that matter most for coding.
+Table 3
+Features of the Three Collections Relevant to AIM-AI Coding
+Feature
+Georgia Tech
+Stanford
+Toronto
+Title and curator
+Academic AI Playbook, edited volume (Joyner & Roy, 2026)
+AIMES Library of Examples, Center for Teaching and Learning
+U of T Teaching Examples, Centre for Teaching Support & Innovation
+Entries
+67 articles
+40 entries
+40 entries
+Contributors
+Faculty from all seven colleges, plus support units
+24 courses and one department
+27 instructors
+Curator's scheme
+3 categories and 10 sub-categories, set by the call for submissions
+Stance filter (Assigned, Limited, Prohibited), plus resource type and discipline
+3 stance categories and 1 platform category (Cogniti), each with sub-headings
+Natural document unit
+The article (one "play")
+The artifact (policy, assignment, goal, activity)
+The activity entry
+Cross-document link
+Rare
+The course
+The instructor
+Entry template
+Formation, Action, Result, Lessons
+Course block, curator "Pedagogy" paragraph, artifact in the instructor's words
+Biography, Objectives, Process, then STRIVE alignment or instructor outcomes
+Voice
+Instructor, first person, retrospective
+Instructor artifact, framed by the curator
+Mixed: instructor procedure, curator framing, instructor outcomes in newer entries
+Reports outcomes?
+Yes, in every article
+No
+Sometimes
+Typical evidence locus (R3)
+Reported enactment, participant voice, outcome data
+Design intent
+Design intent; enactment in newer entries
+Episode-level detail (R1)
+Variable; often sequence detail in Action sections
+Rare; fallback of one episode per activity expected
+Frequent; step-by-step Process sections
+Status
+Fixed edition
+Growing
+Growing, with an open call for submissions
+Note. Stanford and Toronto counts are as of October 5, 2026. Expectations for evidence locus and episode detail are based on our first-glance reads and are untested.
+Georgia Tech Academic AI Playbook
+Of the playbook's 67 articles, 55 are provisionally codable under AIM-AI, and almost half of those describe more than one learning activity.
+What the Collection Is
+The playbook began in January 2026 with a campus-wide call that drew 139 submissions from all seven colleges and several institutes and support units (Joyner & Roy, 2026). The editors invited 73 initiatives to submit full articles, received 38 further proposals in a second call, and produced 67 articles. Each article is framed as a "play," a contextualized initiative reported under four fixed headings: Formation, Action, Result, and Lessons. The volume closes with 20 lessons synthesized by the editors.
+For our purposes, the article is an unusually good document unit. It is written by the instructors who ran the initiative, it reports what happened rather than what was planned, and its Result and Lessons sections supply indirect evidence of how learners actually oriented toward AI.
+How the Collection Organizes Itself
+The three top-level categories come from the original call: Using AI (20 articles), Teaching AI (35), and Reacting to AI (12). Each article declares its own category and one of ten sub-categories, and all 67 match their table-of-contents placement.
+The sub-categories are only rough proxies for interaction arrangement. "AI for Course Preparation & Production" reliably signals instructor-AI arrangements. "Pedagogical Redesign in Response to AI," by contrast, holds both removal designs and designs that actively integrate AI. Teaching AI also contains several articles in which students simply use AI for disciplinary work, such as auditing accounting standards or generating design inputs. The categories record how authors framed their contribution, not how participation was organized.
+Screening Results
+Table 4
+Provisional Screening of the Georgia Tech Playbook
+Screening result
+n
+Articles (table-of-contents order)
+Single learning activity
+26
+2–6, 10, 14, 16, 17, 20, 21, 23, 27, 33–36, 38, 40, 48, 51, 55, 60, 61, 64, 67
+Multiple learning activities
+25
+1, 7–9, 11–13, 15, 18, 19, 24, 26, 28–31, 37, 39, 41, 46, 50, 56, 58, 63, 66
+Borderline, single or multiple
+4
+22, 25, 32, 44
+Codable subtotal
+55
+
+Non-interactional commentary (R14)
+10
+42, 43, 45, 47, 49, 52–54, 59, 65
+AI removal (R7)
+2
+57, 62
+Total
+67
+
+Note. Version 1 used the term "segment"; Codebook v0.5 calls the same unit a learning activity. Medford et al. [61] was initially an R7 candidate and was retained under the mixed-article provision because it describes permitted AI uses; its exam replacement is recorded but not coded.
+Two features of the codable set matter for later analysis. First, instructor activities inflate the multiple-activity count. Six articles (1, 13, 15, 18, 37, 50) have multiple activities largely because they add an instructor-AI arrangement to a student-facing one, and four single-activity articles (3, 4, 5, 10) are instructor-only. Second, some articles split within a single tool. SMART Tutor (8) offers three modes, and the GAUF framework (58) defines five use levels.
+Fit to the v0.5 Unit Hierarchy
+The playbook maps onto the three nested units without strain: article, then learning activity, then episode. Episode resolution will vary. Action sections often narrate sequence, so many activities should yield more than one episode, or a single episode with a coded trajectory. The within-tool splits now have a natural home: SMART Tutor's modes and GAUF's use levels can be coded as episodes with different objectives inside one activity, rather than forcing a choice between one segment and several.
+We expect the mediational literacy codes to matter most here, in the 35 Teaching AI articles, many of which aim to build students' awareness of how AI shapes their thinking. The Result sections should also make the epistemic opportunity codes workable, because instructors often report whether students accepted, noticed, or contested what the AI produced.
+What Georgia Tech Taught Us About Screening
+The playbook generated three of our screening rules. The non-interactional category (R14) arose because ten articles treat AI as subject matter (algorithmic fairness, analytics models, unplugged curricula) or describe policy and resource development, leaving nothing for the codebook to code. The mixed-article provision arose because many Reacting to AI plays remove AI from one part of a course while describing AI-mediated activity elsewhere. The decision to code instructor-AI arrangements separately arose because the Using AI category is dominated by instructors' own use.
+Stanford AIMES Library of Examples
+Of Stanford's 40 entries, 19 are provisionally codable, but each holds thin evidence and describes arrangements as designed rather than enacted.
+What the Collection Is
+The AIMES Library is curated by Stanford's Center for Teaching and Learning (Stanford Center for Teaching and Learning, n.d.). Every example comes from a Stanford faculty member, lecturer, or instructor and has been used in an actual class. The artifacts include course policies, assignments, learning goals, in-class activities, and teaching strategies. The library takes no institutional position on AI.
+At the time of our survey the library held 40 entries from 24 courses and one department-level guidance document. Several courses contribute more than one artifact: Technology, Innovation, and Great Power Competition and Human-Centered AI contribute four each, and Media, Mind, and Black Mirror contributes three.
+How the Collection Organizes Itself
+The main organizing scheme is a stance filter. "Assigned" means students are told to use AI for particular tasks, "Limited" means instructors restrict AI to particular tasks or domains, and "Prohibited" means no AI use is allowed. Our count is 18 Assigned, 15 Limited, and 7 Prohibited. Further filters cover resource type and discipline.
+The stance filter classifies permission, not participation. One course can carry different stance labels on different artifacts: Media, Mind, and Black Mirror pairs a Limited policy with Assigned assignments. "Limited" policies can also specify quite definite arrangements. The Design for Behavior Change policy bars AI from reflection, ethics discussions, and sketchnotes, permits it for brainstorming and research support at project milestones, and asks students to submit prompts and transcripts and reflect on where the tool fell short. That is a codable arrangement despite a label that suggests restriction.
+Genre
+Stanford entries are not narratives. Each has a course-information block, a short "Pedagogy" framing paragraph that appears to be written by Center staff, and the artifact itself in the instructor's words. The Media, Mind, and Black Mirror final project shows both the strength and the limit of this genre. Students customize a personal AI chat partner, talk with it two or three times a week, complete weekly reflective surveys, and write an auto-observational study. The arrangement is precisely specified, but the entry does not report how it played out.
+Screening Results
+Table 5
+Provisional Screening of the Stanford AIMES Library
+Screening result
+n
+Entries (course, resource type)
+Likely codable
+19
+AI Art & Aesthetics (activity); Art Meets AI (assignment); AI and Journalism (co-created policy); Censorship and Propaganda (policy); Decolonizing Archives (policy, assignment); Design for Behavior Change (policy); Environmental History: Water Justice (policy); Governing AI (policy); Governing AI in Federal Criminal Justice (policy); Human-Centered AI (assignment, policy); Media, Mind, and Black Mirror (final project, policy, assignment); Rhetoric of Robots and AI (policy); Technology, Innovation, and Great Power Competition (policy, assignment, final project)
+Borderline
+7
+AI Art & Aesthetics (assignment); Equity and Governance for AI (two assignments); Ethics and Influence of AI (policy); Human-Centered AI (final project); Music and AI (assignment); Synthetic Personas in Communication Research (course description)
+Non-interactional (R14)
+7
+Learning goals from Art Meets AI, AI and Journalism, Bias in AI Applications, Human-Centered AI, Music and AI, and Great Power Competition; Computer Networking (activity)
+R7 exclusion candidate
+7
+Adaptation (policy); department guidance; Economic Analysis I (assignment, assessment); Fiction Writing (policy); Philosophy of AI (policy); Privacy, Surveillance, and Freedom (assignment)
+Total
+40
+
+Note. Screen based on the listing page and close reads of two entries.
+Three patterns stand out. Learning-goals entries behave like non-interactional commentaries even when labelled "Assigned," because they state outcomes about AI rather than describing an arrangement. Most borderline cases sit where AI is both the object of study and something students handle, such as evaluating models in a legislative simulation or prototyping an AI music application. That boundary is denser here than at Georgia Tech, because many of these courses are about AI. Finally, the seven Prohibited entries are only provisionally excluded; some may describe a permitted arrangement once read in full.
+Fit to the v0.5 Unit Hierarchy
+Stanford fits the hierarchy least cleanly. If the course is the document, each artifact becomes a learning activity, which gives about 25 course profiles and mirrors the playbook roll-up. If the artifact is the document, we have 40 thin records with one activity each. Either way, episodes will rarely be resolvable, so the R1 fallback of one episode per activity will be the norm.
+Two v0.5 features help here. Under R3, nearly every Stanford episode will carry the evidence locus "design intent," so its holistic configuration describes the intended arrangement, and the design-enactment comparison simply does not compute. That makes the genre limit explicit in the data rather than hiding it. Second, course policies that enumerate permitted uses match an existing indicator: the HD-2 code lists restricted or enumerated permitted uses as evidence of a human-directed structure. Policies that ask students to reflect on where a tool fell short, as Design for Behavior Change does, also design for the epistemic opportunity and mediational literacy codes, although only as intent.
+University of Toronto Teaching Examples
+Of Toronto's 40 entries, 20 are provisionally codable, and they include some of the most precisely specified arrangements in any of the three collections.
+What the Collection Is
+The collection is curated by U of T's Centre for Teaching Support & Innovation and presents examples of how instructors have approached generative AI: limiting its use, communicating expectations, integrating it into coursework, or building a course-specific chatbot with Cogniti (CTSI, n.d.). It is open and growing; CTSI invites instructors to submit assessments, learning activities, or communication strategies through an online form.
+At the time of our survey the page listed 40 entries from 27 instructors: 12 Limiting, 6 Communicating, 21 Integrating, and 1 Cogniti. Instructors recur across entries. Thavarajah and Kyle Smith contribute four each, spanning policy, transparency modeling, oral assessment, and integration designs, and seven others contribute two.
+How the Collection Organizes Itself
+Toronto's scheme mixes two classification axes. Three categories describe an instructional stance, while the fourth names a platform. Cogniti is a generative AI chatbot tailored to course materials, and CTSI notes that the section is still being updated as use cases develop. A platform category says nothing about stance, and a stance category says nothing about tooling.
+Stance labels also do not travel across collections. Stanford's "Limited" meant AI restricted to particular tasks, often within codable policies. Toronto's "Limiting AI Use" mostly means assessment redesigned to resist AI, through oral exams, handwritten journals, and in-class work, which is closer to Georgia Tech's removal plays. Even so, the category is not uniform. Thavarajah's lab redesign moves graded post-lab work into the lab session, while its open-book pre-lab quiz explicitly allows students to use AI tools to support their learning: an R7 mixed case.
+Genre
+Toronto entries are a hybrid. Most follow a CTSI template: instructor biography, Objectives, and a step-by-step Process far more granular than Stanford's artifacts. Wong's reading response assignment illustrates the granularity. Students write a reaction to the readings, prompt ChatGPT for a reply of 50 words or fewer, respond with further analysis grounded in the readings, and repeat, so that they interrogate rather than passively accept AI output. Few entries in any collection specify interaction structure and interpretive influence so clearly.
+Older entries close with a "Future-Focused Skill Development" section mapping the activity onto the University of Calgary's STRIVE model (Taylor Institute for Teaching and Learning, n.d.), which reads as curator framing. Newer entries add outcomes in the instructor's voice, moving toward Georgia Tech's reflective genre. Kaur's Cogniti entry reports, for example, that 75% of students agreed or strongly agreed that the project helped them understand how system prompts shape AI behaviour.
+Screening Results
+Table 6
+Provisional Screening of the U of T Teaching Examples
+Screening result
+n
+Entries (instructor, short title)
+Likely codable
+20
+Thavarajah (first-day AI transparency, instructor activity; concept map); K. Smith (monastery design; mythmaking); Seward ("Beat the Machines," instructor and learner activities); Yaari (digital history); Yip (biology chatbots); Bentley (lab analysis); MacKay (financial data analysis); Wood (Copilot clinical cases, possibly instructor); Bello (French writing; AI conversations); Wong (reading response dialogues); Khazra (literature review; research question); Fischer (scaffolded project reflection); Manolson (student vs. AI literature reviews); Goldfarb (global affairs task); Sanders (critiquing LLM output); Kaur (Cogniti personas, multiple episodes)
+Borderline
+7
+Thavarajah (lab report, R7 mixed; signed GenAI contract); Yeung (syllabus statement); MacKay (personal ethical framework); K. Smith (propaganda and bias, AI as subject); Moghaddam (Spot the Error, relayed output); Hill (vaccine hesitancy)
+Non-interactional (R14)
+2
+Corral (co-constructed policy); Moghaddam (co-created policy)
+R7 exclusion candidate
+11
+Ferreira (check-ins); Mant (handwritten journals; book commentary); Trimble (annotation; activity journal); K. Smith (viva voce); Avery (research presentation); Wong (video pitch); LaFosse (essay follow-up); Jeffrey (grant proposal); Siddiqui (source integration)
+Total
+40
+
+Note. Screen based on the listing page and close reads of four entries (Thavarajah, lab report; Moghaddam, class policy; Wong, reading dialogues; Kaur, Cogniti personas).
+Four patterns stand out. First, Toronto's categories predict our screen better than either other scheme: nearly all Limiting entries are exclusion candidates, and nearly all Integrating entries look codable. The variation sits inside the codable set, which is where AIM-AI should do its work.
+Second, co-created policies are not interactions, even though they produce rules about use. Moghaddam's class reached consensus to permit AI for revising outlines and essays and for brainstorming, but not for generating ideas, arguments, or claims. These are permissions with no human-AI arrangement in the activity itself.
+Third, the "Evaluating & Critiquing AI Output" sub-heading raises a boundary we had not met. In some designs the instructor may generate the AI output and students critique it without ever touching the system.
+Fourth, the single Cogniti entry is among the richest in any collection. Students designed their own agents in Cogniti's Sandbox, customizing the interface, opening message, and system prompt, and then peer-reviewed other groups' personas for whether they stayed in character and avoided fabricating data. Students as AI designers is a role our codebook does not yet name.
+Fit to the v0.5 Unit Hierarchy
+Toronto offers the best episode-level resolution of the three collections, because its Process sections are written as numbered steps with distinct objectives. The entry is a natural document, and most entries hold one learning activity. Kaur's project, for instance, separates into at least two episodes with different objectives: building a grounded persona, then reviewing other groups' personas. Wong's dialogue is better read as one episode with a coded trajectory, since its objective stays constant across the three turns. Thavarajah's lab report shows how R1 and R7 work together: the pre-lab quiz is a codable episode, while the in-lab work, from which AI is removed, is recorded but not coded.
+The extension codes also find ready evidence here. Wong's design builds in an epistemic move at the Challenged level, and the "Evaluating & Critiquing AI Output" entries are designed around the Recognized and Evaluated levels. Kaur's outcome data test a boundary in the mediational literacy rule: understanding how system prompts shape AI behaviour could count as framing awareness, or as the prompting knowledge that R17 excludes.
+Cross-Corpus Comparison
+Across 147 entries, 90 (61.2%) are likely codable and a further 18 are borderline, so the combined corpus could yield roughly 90 to 108 documents for AIM-AI analysis. The proportions differ sharply by collection, as Table 7 shows.
+Table 7
+Provisional Screening Results by Collection
+Screening result
+Georgia Tech n (%)
+Stanford n (%)
+Toronto n (%)
+Combined n (%)
+Likely codable
+51 (76.1)
+19 (47.5)
+20 (50.0)
+90 (61.2)
+Borderline
+4 (6.0)
+7 (17.5)
+7 (17.5)
+18 (12.2)
+Non-interactional (R14)
+10 (14.9)
+7 (17.5)
+2 (5.0)
+19 (12.9)
+AI removal (R7)
+2 (3.0)
+7 (17.5)
+11 (27.5)
+20 (13.6)
+Total
+67
+40
+40
+147
+Note. Georgia Tech "likely codable" combines 26 single-activity and 25 multiple-activity articles; its R7 count reflects decisions already taken, whereas Stanford and Toronto counts are candidates. Percentages are of each collection's total.
+Three Findings From the Comparison
+The genres form a continuum of evidence locus. Georgia Tech narratives report enacted arrangements with outcomes, Stanford artifacts specify designed arrangements without outcomes, and Toronto entries sit between them. Codebook v0.5 now records this directly: every episode carries an evidence locus, an intended configuration, and, where enactment evidence exists, a computed design-enactment alignment (R3). The revised manuscript's position that design establishes conditions but does not determine engagement makes the distinction substantive, not merely methodological. Positioning, interpretive influence, and epistemic opportunity describe what learners actually did with AI; a design can only state what it hoped for. Any cross-collection comparison of configurations will therefore be confounded with genre unless evidence locus is held constant or modelled.
+Curator labels classify something other than interaction, and each in a different way. Georgia Tech classifies by the author's framing of the contribution (using, teaching, or reacting), Stanford by permission (assigned, limited, prohibited), and Toronto by a mix of stance and platform. None classifies how participation is organized. The same word also means different things across schemes: Stanford's "Limited" often marks a codable arrangement, whereas Toronto's "Limiting" usually marks an AI-resistant redesign. This inconsistency is itself evidence for the AIM-AI argument that "AI use" labels obscure interactional variation, a point the revised manuscript now supports with a systematic review finding that studies describe "AI use," "exposure," or "assistance" without characterizing the interaction (Liang et al., 2026).
+The boundary problems recur, but at different densities. Every collection has AI-as-subject entries, mixed removal designs, and instructor-AI arrangements. Stanford adds a dense AI-as-subject boundary because many of its courses are about AI. Toronto adds two boundaries that v0.5 does not yet resolve: relayed AI output, where students critique output they never generated, and students as designers of AI agents.
+Mapping the Collections to the v0.5 Unit Hierarchy
+Rule R1 fixes the bottom of the hierarchy (the mediation episode) but leaves the top, the document, to be defined for each collection. Table 8 sets out the options.
+Table 8
+Candidate Mapping of Each Collection to the Codebook v0.5 Units
+Unit
+Georgia Tech
+Stanford
+Toronto
+Document (profile level)
+Article (67)
+Course (about 25) or artifact (40)
+Entry (40) or instructor (27)
+Learning activity
+Arrangement within the article
+Artifact, if the course is the document
+Usually the entry itself
+Mediation episode
+Often resolvable from Action sections
+Rarely resolvable; one-per-activity fallback
+Usually resolvable from Process steps
+Expected evidence locus
+Enactment and outcomes
+Design intent
+Design intent, some enactment
+Cross-document link available for a second roll-up
+None
+Course
+Instructor
+Note. Counts are entries before screening exclusions. Episode resolvability is an expectation from first-glance reads.
+What the First Glance Suggests About AIM-AI's Analytic Utility
+Codebook v0.5 strengthens the case for AIM-AI as an analytic lens for these collections. It now names the design-enactment gap that Version 1 treated as a strain, and it adds codes for the epistemic work that many of these designs are built around. Its most distinctive constructs, however, remain the hardest to evidence from instructor-authored documents.
+Where the Framework Already Adds Value
+AIM-AI separates documents that the curators' labels group together. Two Toronto entries filed under "AI as a Research & Writing Tool" illustrate the point. Wong's dialogues build in a turn-by-turn structure in which students must answer the AI with evidence from the readings, which suggests a co-mediated configuration on interaction structure and interpretive influence. A literature review assignment in which students collect and summarize AI-retrieved sources could, depending on its details, sit nearer the AI-structured reference point. The same curator label covers two different distributions of interpretive responsibility, and only the framework names the difference.
+The epistemic opportunity codes add a second axis of discrimination that cuts across configuration. Toronto's entire "Evaluating & Critiquing AI Output" sub-heading, and Stanford policies that ask students to report where a tool fell short, are designed to move learners beyond inheriting AI-introduced assumptions. Under v0.5 we can record that design move separately from the configuration, which lets us examine the revised manuscript's claim that hidden epistemology persists in every configuration.
+The framework also explains some of what the collections exclude. Many "Limiting" and "Reacting" designs can be read as instructors redistributing cognitive responsibility toward the human, sometimes by removing AI entirely. That reading connects the excluded R7 designs back to the framework's central concern, even though we do not code them.
+Where the Framework Will Be Strained
+Version 1 identified three strains. Codebook v0.5 resolves one, narrows another, and leaves the third open, and it adds a fourth.
+• Positioning and interpretation from designs (largely resolved). R3 now records evidence locus and intended configuration for every episode, so designed and enacted positioning are no longer conflated. What remains is an analytic consequence: for Stanford, and for older Toronto entries, almost every configuration we code will be an intended configuration.
+• Roles the framework does not name (narrowed). The merged interaction structure dimension reads who steers and who produces the substance together, which absorbs instructors modeling their own AI use as an ordinary instructor episode (R2). Students designing AI agents (Kaur) and students critiquing output generated by someone else (Spot the Error) still have no clear home. The second is not covered by R8, which addresses AI that mediates relations among humans.
+• AI as subject versus AI as participant (open). We kept R14 unchanged under v0.5, but the Stanford borderline set suggests we still need a sharper criterion, perhaps whether learners engage the system as a source of contributions or only inspect it as an artifact.
+• Mediational literacy versus technical AI knowledge (new). R17 excludes knowledge of AI capabilities and prompting technique from the literacy codes. Many Teaching AI articles and AI-themed courses sit close to that line, and Kaur's finding that students learned how system prompts shape AI behaviour is a clean test case.
+A Note on Comparability
+The three collections are not samples of instructor practice in any statistical sense. Each is curated, and each curator's call shaped what was submitted. Georgia Tech's call favoured mature, reportable initiatives; Stanford's library spans a deliberate range of stances; Toronto's open call is still accumulating. Cross-collection comparisons of configuration frequencies should therefore be treated as descriptions of what each institution chose to showcase, not as estimates of how AI is used at each institution.
+Questions to Resolve Before Deep Reading
+Codebook v0.5 settles one of Version 1's ten questions in large part and narrows two more; seven remain open, and two new ones arise. Table 9 records the status of each.
+Table 9
+Questions to Resolve Before Deep Reading, With Status After Codebook v0.5
+#
+Question
+Status
+What v0.5 settled, and what remains
+1
+What claim should the analysis support: that AIM-AI discriminates where curator labels do not, a description of what institutions showcase, or a comparison across institutions?
+Open
+Unchanged. The answer determines the sample and the use of borderline cases.
+2
+One pooled corpus or three parallel studies?
+Open, now due
+The decision on whether Stanford and Toronto join the v0.5 workbook, with a Corpus field, or get parallel workbooks was deferred until these scoping updates; it can now be taken.
+3
+What is the unit of analysis in each collection?
+Narrowed
+R1 fixes learning activity and mediation episode. What remains is the document level: course or artifact at Stanford, entry or instructor at Toronto (Table 8).
+4
+How do we code designed rather than enacted arrangements?
+Largely settled
+R3 records evidence locus and intended configuration and computes design-enactment alignment. What remains is whether design-only episodes enter the same analyses as enacted ones or are analyzed separately.
+5
+What separates AI as subject from AI as participant?
+Open
+R14 was kept unchanged. A candidate criterion: codable when learners engage the system as a source of contributions, excluded when they only inspect or discuss it.
+6
+Where do relayed output and agent design fit?
+Open
+v0.5 adds no rule for either. Each could be handled by a boundary rule or by a reasoned extension of the role vocabulary in the interaction structure dimension.
+7
+How should curator-authored text be treated?
+Open
+The R3 evidence-locus list has no value for curator framing (Stanford's Pedagogy paragraphs, Toronto's STRIVE sections). We could add one, or treat such text as context only.
+8
+How do we fix the Stanford and Toronto collections in time?
+Open
+We propose freezing each at a stated date and archiving every entry so that the corpus can be cited and reproduced.
+9
+What reading resolves the 38 open cases (18 borderline, 20 removal)?
+Open
+Under R1, the R7 mixed-article provision now operates at the episode level, so full reads should identify codable episodes, not just codable documents. Should one reader resolve them with memos, or both of us independently?
+10
+How do we calibrate?
+Narrowed
+R12 now flags episodes with fewer than three of five dimensions coded, coherence below .67, or a modal tie. Both thresholds stay provisional until a calibration sample drawn from all three collections has been coded by two coders.
+11
+Should R15 be confirmed?
+New
+R15 resolves conflicts inside the merged interaction structure dimension by coding who steers and who produces the substance, with the divergence memoed. It remains proposed until tested.
+12
+Where does mediational literacy end and technical AI knowledge begin?
+New
+R17 excludes prompting technique. Learning how system prompts shape AI behaviour (Kaur) and much AI-themed coursework sit near that line.
+One administrative item also remains open: confirming the author credit for the AIM-AI manuscript, which this document cites by title pending that decision.
+References
+[Authors to be confirmed]. (2026). An interactional model of AI-mediated learning (AIM-AI) [Unpublished manuscript, revised September 14, 2026].
+Caliskan, A., Bryson, J. J., & Narayanan, A. (2017). Semantics derived automatically from language corpora contain human-like biases. Science, 356(6334), 183–186. https://doi.org/10.1126/science.aal4230
+Centre for Teaching Support & Innovation. (n.d.). U of T teaching examples. University of Toronto. Retrieved October 5, 2026, from https://teaching.utoronto.ca/teaching-uoft-genai/at-u-of-t/
+Chi, M. T. H., & Wylie, R. (2014). The ICAP framework: Linking cognitive engagement to active learning outcomes. Educational Psychologist, 49(4), 219–243. https://doi.org/10.1080/00461520.2014.965823
+Jose, B., Cleetus, A., Joseph, B., Joseph, L., Jose, B., & John, A. K. (2025). Epistemic authority and generative AI in learning spaces: Rethinking knowledge in the algorithmic age. Frontiers in Education, 10, Article 1647687. https://doi.org/10.3389/feduc.2025.1647687
+Joyner, D. A., & Roy, N. (Eds.). (2026). Georgia Tech academic AI playbook (2026 ed.). Georgia Institute of Technology. https://hdl.handle.net/1853/81982
+Liang, Z., Yang, K., Sha, L., Gašević, D., Yan, L., & Chen, G. (2026). A systematic review of generative AI in education: Empirical insights from a human-AI interaction perspective. British Journal of Educational Technology, 57(5), 1221–1271. https://doi.org/10.1111/bjet.70055
+Litts, B. K., Searle, K. A., Brayboy, B. M. J., & Kafai, Y. B. (2021). Computing for all?: Examining critical biases in computational tools for learning. British Journal of Educational Technology, 52(2), 842–857. https://doi.org/10.1111/bjet.13059
+Ofosu-Asare, Y. (2025). Cognitive imperialism in artificial intelligence: Counteracting bias with indigenous epistemologies. AI & Society, 40, 3045–3061. https://doi.org/10.1007/s00146-024-02065-0
+Stanford Center for Teaching and Learning. (n.d.). AIMES library of examples. Stanford University. Retrieved October 5, 2026, from https://ctl.stanford.edu/aimes/aimes-library-examples
+Taylor Institute for Teaching and Learning. (n.d.). STRIVE: Emerging considerations. University of Calgary. Retrieved October 5, 2026, from https://taylor-institute.ucalgary.ca/resources/strive-emerging-considerations
+Note. The Toronto, Stanford, and Calgary pages carry no DOI or visible publication date, so retrieval dates are given. The playbook carries a persistent handle rather than a DOI.
+Addendum: Changes From Version 1
+Version 2 changes how the framework is described, how each collection maps onto the coding units, and which questions remain open; it does not change any screening count or classification. Table A1 lists each change with the Codebook v0.5 element or author decision behind it.
+Table A1
+Changes From Version 1 to Version 2
+Section
+Version 1
+Version 2
+Basis
+Purpose and Scope
+No version note
+Paragraph explaining the revision against Codebook v0.5 and pointing to this addendum
+Request for Version 2
+Framework
+Seven dimensions, four discrete configurations, 28 intersections
+Five dimensions; configurations as reference points on a continuum with permeable boundaries; 20 intersections; Table 1 descriptors taken from Table 4 of the revised manuscript
+14 September revision; v0.5 Framework and Codebook sheets
+Framework
+Interpretation dynamics; hidden epistemology anchored in Perkins (1995)
+Interpretive influence, specified through five interpretive functions; hidden epistemology grounded in Caliskan et al. (2017), Litts et al. (2021), Ofosu-Asare (2025), and Jose et al. (2025); Perkins removed
+14 September revision; v0.5 anchors
+Framework
+Segments rolled up to article profiles
+Three nested units (document, learning activity, mediation episode), with a fallback of one episode per activity
+R1, adopted October 2026
+Framework
+No extension codes
+New Table 2 summarizing epistemic opportunity, epistemic object, mediational literacy, trajectory, stated purpose and intended configuration, evidence locus, sociotechnical frame, dialogue type, and learner variability
+v0.5 Extension Codes sheet; R3, R6, R16 to R20
+Framework
+Low-evidence flag at fewer than 4 of 7 dimensions; R14 stated
+Flag at fewer than 3 of 5 dimensions; note that R14 was reviewed for v0.5 and retained
+R12 (revised); R14 (author decision)
+Collections at a Glance
+Table 2; row on typical evidence (enacted or prescribed)
+Renumbered Table 3; rows on typical evidence locus (R3) and episode-level detail (R1)
+R1, R3
+Georgia Tech
+"Single segment" and "multi-segment"; Table 3
+"Single learning activity" and "multiple learning activities"; renumbered Table 4; new subsection on fit to the unit hierarchy, including within-tool modes as episodes and expected use of the literacy and epistemic codes
+R1, R16, R17
+Stanford
+"Prescribed" arrangements; Table 4
+"Designed" arrangements; renumbered Table 5; new subsection on fit to the unit hierarchy, the design-intent locus, and policies matching the HD-2 indicator for enumerated permitted uses
+R1, R3; v0.5 HD-2 indicators
+Toronto
+Table 5; Kaur listed as multi-segment; table note on a corrected tally
+Renumbered Table 6; Kaur listed as multiple episodes; note on the earlier tally removed, with the corrected counts (7 borderline, 11 removal) unchanged; new subsection on episode resolution, R1 with R7, and the epistemic and literacy codes
+R1, R7, R16, R17
+Cross-Corpus Comparison
+Table 6; genre continuum framed as enacted versus prescribed evidence
+Renumbered Table 7; genre finding restated through evidence locus and design-enactment alignment; added support from Liang et al. (2026); new Table 8 mapping each collection to the unit hierarchy
+R1, R3; 14 September revision
+Analytic Utility
+Three strains: positioning from prescriptions, unnamed roles, AI as subject
+Epistemic opportunity added as a second axis of discrimination; strains given a status (resolved, narrowed, open); new strain on mediational literacy versus technical AI knowledge; R8 noted as not covering relayed output
+R2, R3, R8, R15, R16, R17
+Questions
+Ten questions as a numbered list
+Twelve questions in Table 9 with status: one largely settled (4), two narrowed (3, 10), one now due (2), two new (R15 confirmation; literacy versus technical knowledge); question 7 notes the missing evidence-locus value for curator text; question 9 notes episode-level R7 reading
+R1, R3, R12, R15, R17; deferred workbook decision
+References
+AIM-AI manuscript (earlier version); Perkins (1995)
+AIM-AI manuscript revised September 14, 2026; added Caliskan et al. (2017), Jose et al. (2025), Liang et al. (2026), Litts et al. (2021), Ofosu-Asare (2025), with DOIs; Perkins removed
+14 September revision
+Note. All screening counts, classifications, and entry lists in Tables 4 to 7 are carried forward from Version 1 unchanged, consistent with Codebook v0.5, which carried every screening decision forward.
