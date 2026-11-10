@@ -1,0 +1,322 @@
+{
+ "table2": {
+  "Engagement": {
+   "AD": 7,
+   "AS": 34,
+   "CM": 6,
+   "HD": 88,
+   "NE": 4,
+   "departs_pct": 35,
+   "coded": 135
+  },
+  "Steering": {
+   "AD": 1,
+   "AS": 13,
+   "CM": 3,
+   "HD": 112,
+   "NE": 10,
+   "departs_pct": 13,
+   "coded": 129
+  },
+  "Provenance": {
+   "AD": 11,
+   "AS": 27,
+   "CM": 2,
+   "HD": 97,
+   "NE": 2,
+   "departs_pct": 29,
+   "coded": 137
+  },
+  "Interpretation": {
+   "AD": 1,
+   "AS": 17,
+   "CM": 2,
+   "HD": 89,
+   "NE": 30,
+   "departs_pct": 18,
+   "coded": 109
+  },
+  "Positioning": {
+   "AD": 2,
+   "AS": 67,
+   "CM": 5,
+   "HD": 22,
+   "NE": 43,
+   "departs_pct": 77,
+   "coded": 96
+  }
+ },
+ "mixed": 71,
+ "n_learner": 139,
+ "distinct_profiles": 41,
+ "mixture_composition": {
+  "AS+HD": 53,
+  "AD+AS+HD": 8,
+  "CM+HD": 3,
+  "AD+AS": 2,
+  "AS+CM+HD": 2,
+  "AD+HD": 2,
+  "AS+CM": 1
+ },
+ "uniform_composition": {
+  "HD": 61,
+  "AS": 6,
+  "CM": 1
+ },
+ "top_profiles": [
+  {
+   "profile": {
+    "Engagement": "HD",
+    "Steering": "HD",
+    "Provenance": "HD",
+    "Interpretation": "HD",
+    "Positioning": "NE"
+   },
+   "n": 28
+  },
+  {
+   "profile": {
+    "Engagement": "HD",
+    "Steering": "HD",
+    "Provenance": "HD",
+    "Interpretation": "HD",
+    "Positioning": "AS"
+   },
+   "n": 18
+  },
+  {
+   "profile": {
+    "Engagement": "HD",
+    "Steering": "HD",
+    "Provenance": "HD",
+    "Interpretation": "HD",
+    "Positioning": "HD"
+   },
+   "n": 14
+  },
+  {
+   "profile": {
+    "Engagement": "AS",
+    "Steering": "HD",
+    "Provenance": "AS",
+    "Interpretation": "HD",
+    "Positioning": "AS"
+   },
+   "n": 9
+  },
+  {
+   "profile": {
+    "Engagement": "HD",
+    "Steering": "NE",
+    "Provenance": "HD",
+    "Interpretation": "HD",
+    "Positioning": "NE"
+   },
+   "n": 9
+  },
+  {
+   "profile": {
+    "Engagement": "HD",
+    "Steering": "HD",
+    "Provenance": "HD",
+    "Interpretation": "NE",
+    "Positioning": "HD"
+   },
+   "n": 6
+  },
+  {
+   "profile": {
+    "Engagement": "AS",
+    "Steering": "AS",
+    "Provenance": "AS",
+    "Interpretation": "AS",
+    "Positioning": "AS"
+   },
+   "n": 5
+  },
+  {
+   "profile": {
+    "Engagement": "HD",
+    "Steering": "HD",
+    "Provenance": "HD",
+    "Interpretation": "NE",
+    "Positioning": "AS"
+   },
+   "n": 5
+  },
+  {
+   "profile": {
+    "Engagement": "AS",
+    "Steering": "AS",
+    "Provenance": "HD",
+    "Interpretation": "AS",
+    "Positioning": "AS"
+   },
+   "n": 4
+  },
+  {
+   "profile": {
+    "Engagement": "AS",
+    "Steering": "HD",
+    "Provenance": "AS",
+    "Interpretation": "AS",
+    "Positioning": "AS"
+   },
+   "n": 3
+  }
+ ],
+ "top8_cover": 94,
+ "steer_prov_both_coded": 127,
+ "steer_prov_diverge": 37,
+ "steerHD_provAI": 30,
+ "divergence_pairs": {
+  "AS/AD": 1,
+  "AS/HD": 5,
+  "CM/HD": 1,
+  "HD/AD": 10,
+  "HD/AS": 20
+ },
+ "scale5": {
+  "H": 0.824,
+  "Rep": 0.96,
+  "order": [
+   "Positioning",
+   "Engagement",
+   "Provenance",
+   "Interpretation",
+   "Steering"
+  ],
+  "departure_rates": {
+   "Engagement": 0.348,
+   "Steering": 0.132,
+   "Provenance": 0.292,
+   "Interpretation": 0.183,
+   "Positioning": 0.771
+  },
+  "pairs": {
+   "Steering given Engagement": {
+    "hard_departs": 17,
+    "also_easy": 17,
+    "errors": 0,
+    "Hij": 1.0
+   },
+   "Provenance given Engagement": {
+    "hard_departs": 38,
+    "also_easy": 35,
+    "errors": 3,
+    "Hij": 0.881
+   },
+   "Interpretation given Engagement": {
+    "hard_departs": 20,
+    "also_easy": 18,
+    "errors": 2,
+    "Hij": 0.857
+   },
+   "Engagement given Positioning": {
+    "hard_departs": 43,
+    "also_easy": 43,
+    "errors": 0,
+    "Hij": 1.0
+   },
+   "Steering given Provenance": {
+    "hard_departs": 16,
+    "also_easy": 10,
+    "errors": 6,
+    "Hij": 0.453
+   },
+   "Steering given Interpretation": {
+    "hard_departs": 14,
+    "also_easy": 12,
+    "errors": 2,
+    "Hij": 0.821
+   },
+   "Steering given Positioning": {
+    "hard_departs": 17,
+    "also_easy": 17,
+    "errors": 0,
+    "Hij": 1.0
+   },
+   "Interpretation given Provenance": {
+    "hard_departs": 20,
+    "also_easy": 13,
+    "errors": 7,
+    "Hij": 0.535
+   },
+   "Provenance given Positioning": {
+    "hard_departs": 38,
+    "also_easy": 38,
+    "errors": 0,
+    "Hij": 1.0
+   },
+   "Interpretation given Positioning": {
+    "hard_departs": 19,
+    "also_easy": 19,
+    "errors": 0,
+    "Hij": 1.0
+   }
+  }
+ },
+ "scale4_check": {
+  "H": 0.914,
+  "Rep": 0.979
+ },
+ "scale5_by_collection": {
+  "Georgia Tech": {
+   "H": 0.846,
+   "Rep": 0.963,
+   "n": 85
+  },
+  "Stanford": {
+   "H": 0.892,
+   "Rep": 0.98,
+   "n": 24
+  },
+  "Toronto": {
+   "H": 0.773,
+   "Rep": 0.953,
+   "n": 30
+  }
+ },
+ "bootstrap": {
+  "B": 2000,
+  "H_ci": [
+   0.734,
+   0.911
+  ],
+  "p_steering_departs_less_than_interpretation": 0.962,
+  "top_orders": {
+   "Positioning > Engagement > Provenance > Interpretation > Steering": 1874,
+   "Positioning > Engagement > Provenance > Steering > Interpretation": 75,
+   "Positioning > Provenance > Engagement > Interpretation > Steering": 45,
+   "Positioning > Engagement > Interpretation > Provenance > Steering": 4
+  }
+ },
+ "pre_sweep": {
+  "cells_reverted": 34,
+  "H": 0.772,
+  "Rep": 0.937,
+  "order": [
+   "Positioning",
+   "Engagement",
+   "Provenance",
+   "Interpretation",
+   "Steering"
+  ],
+  "mixed": 78
+ },
+ "exceptions": {
+  "Interpretation without Engagement": 2,
+  "Interpretation without Provenance": 7,
+  "Provenance without Engagement": 3,
+  "Steering without Interpretation": 2,
+  "Steering without Provenance": 6
+ },
+ "instructor": {
+  "n": 23,
+  "mixed": 19,
+  "pos_AS": 19,
+  "steer_HD": 20,
+  "any_CM": 0,
+  "interp_NE": 8
+ }
+}
